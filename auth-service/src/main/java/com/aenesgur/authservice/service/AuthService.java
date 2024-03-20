@@ -16,4 +16,9 @@ public class AuthService {
 
         return new AuthResponse(accessToken, refreshToken);
     }
+
+    public Object infor(String token){
+        token= token.replace("Bearer ", "");
+        return jwtService.getAllClaimsFromToken(token);
+    }
 }
