@@ -10,3 +10,7 @@ run.bat
 
 ### Diagram
 <img width="647" alt="microservice diagram ss" src="micro.drawio.png">
+
+### Ref from:
+https://github.com/aenesgur/springboot-microservice-boilerplate/blob/master/README.md
+https://github.com/rajithd/spring-cloud-security-jwt
