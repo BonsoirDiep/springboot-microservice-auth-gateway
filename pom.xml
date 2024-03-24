@@ -7,8 +7,6 @@
         <module>product-service</module>
 		<module>api-gateway</module>
 		<module>discovery-server</module>
-        <module>order-service</module>
-		<module>product-stock-service</module>
 		<module>config-service</module>
 		<module>auth-service</module>
 	</modules>
@@ -18,7 +16,7 @@
 		<version>2.7.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.aenesgur.microservice</groupId>
+	<groupId>com.trucdulieu.microservice</groupId>
 	<artifactId>microservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>microservice</name>

@@ -1,6 +1,6 @@
 package com.trucdulieu.productservice.event;
 
-// import com.aenesgur.productservice.model.entity.Product;
+// import com.trucdulieu.productservice.model.entity.Product;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

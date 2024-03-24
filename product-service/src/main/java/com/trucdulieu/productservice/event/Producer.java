@@ -1,6 +1,6 @@
 package com.trucdulieu.productservice.event;
 
-// import com.aenesgur.productservice.model.dto.ProductRequestDto;
+// import com.trucdulieu.productservice.model.dto.ProductRequestDto;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.trucdulieu.productservice.model.dto.ProductEventModel;
