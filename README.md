@@ -1,9 +1,7 @@
-### Step by step [VSCODE, WINDOW 10, CMDER(https://cmder.app/)]
+### Step by step [DOCKER]
 ```bash
 mvnw clean install
-run-config.bat
-run-gateway.bat
-run.bat
+docker compose up -d
 ```
 
 
