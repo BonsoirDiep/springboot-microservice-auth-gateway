@@ -7,9 +7,11 @@ run-gateway.bat
 run.bat
 ```
 
+### Docker
+[Docker mode](https://github.com/BonsoirDiep/springboot-microservice-auth-gateway/tree/short-and-docker)
 
 ### Diagram
-<img width="647" alt="microservice diagram ss" src="micro.drawio.png">
+<img src="micro.drawio.png">
 
 ### Ref from:
 https://github.com/aenesgur/springboot-microservice-boilerplate/blob/master/README.md
