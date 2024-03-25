@@ -1,0 +1,16 @@
+package com.trucdulieu.commoncategory.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+// import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/products/ping")
+public class PingController {
+
+    @GetMapping
+    public String getHello(){
+        return "pong";
+    }
+}

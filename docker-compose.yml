@@ -18,7 +18,7 @@ services:
     restart: unless-stopped
     container_name: config-service
     build:
-      context: ./config-service/
+      context: ./platform/config-service/
     env_file:
       - .env
     volumes:
@@ -28,7 +28,7 @@ services:
     image: 'trucdulieu/discovery-server-image'
     container_name: discovery-server
     build:
-      context: ./discovery-server/
+      context: ./platform/discovery-server/
     env_file:
       - .env
     depends_on:
@@ -39,7 +39,7 @@ services:
     image: 'trucdulieu/api-gateway-image'
     container_name: api-gateway
     build:
-      context: ./api-gateway/
+      context: ./platform/api-gateway/
     env_file:
       - .env
     ports:
@@ -53,22 +53,21 @@ services:
     container_name: auth-service
     image: 'trucdulieu/auth-service-image'
     build:
-      context: ./auth-service/
+      context: ./platform/platform/auth-service/
     env_file:
       - .env
     depends_on:
       - discovery-server
 
-  product-service:
-    container_name: product-service
-    image: 'trucdulieu/product-service-image'
+  common-category:
+    container_name: common-category
+    image: 'trucdulieu/common-category-image'
     build:
-      context: ./product-service/
+      context: ./microservices/common-category/
     env_file:
       - .env
     depends_on:
       - discovery-server
-      - kafka
 
 
   ### Dependencies ###
